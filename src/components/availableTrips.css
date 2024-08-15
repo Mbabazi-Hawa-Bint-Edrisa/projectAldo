@@ -1,0 +1,68 @@
+/* package.css */
+
+.package-list {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 40px 20px  40px;
+    
+  }
+  
+  .package-list h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .package-list ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .package-list li {
+    width: calc(33.33% - 20px); 
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid  rgb(163, 230, 163);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .package-list li:hover {
+    transform: translateY(-5px);
+  }
+  
+  .package-list h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .package-list p {
+    margin-bottom: 8px;
+  }
+  
+  .package-list img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .package-list button {
+    background-color: lightgray;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .package-list button:hover {
+    background-color: #151516;
+    color: #fff;
+  }
+  
+  
+  

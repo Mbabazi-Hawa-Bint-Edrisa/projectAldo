@@ -1,0 +1,88 @@
+/* src/components/UserProfile.css */
+
+.user-profile {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .profile-header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-image {
+    flex: 1;
+    text-align: center;
+    position: relative;
+  }
+  
+  .profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ddd;
+  }
+  
+  .placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  .upload-btn {
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+  
+  .user-details {
+    flex: 2;
+    padding-left: 2rem;
+  }
+  
+  .user-details h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .booking-details {
+    margin: 2rem 0;
+  }
+  
+  .booking-details h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .sign-out-btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 6px;
+    background-color: #ff4d4d;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign-out-btn:hover {
+    background-color: #e60000;
+  }
+  
