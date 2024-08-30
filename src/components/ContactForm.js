@@ -1,24 +1,3 @@
-// import "../components/ContactFormStyles.css";
-// import React from "react";
-
-// const ContactForm = () => {
-//   return (
-//     <div className="conatct">
-//       <h1>Send us a message!</h1>
-//       <form>
-//         <input placeholder="Name" />
-//         <input placeholder="Email" />
-//         {/* <input placeholder="Subject" /> */}
-//         <textarea placeholder="Message" rows={4} />
-//         <button>Send Message</button>
-//       </form>
-//     </div>
-//   );
-// };
-
-// export default ContactForm;
-
-
 
 import "../components/ContactFormStyles.css";
 import React, { useState } from "react";
@@ -49,7 +28,7 @@ const ContactForm = () => {
 
     try {
       // Send a POST request to the backend
-      await axios.post('/api/v1/message/messages', formData);
+      await axios.post('http://127.0.0.1:5000/api/v1/message/messages', formData);
       
       // Display success message
       setFeedback('Message sent successfully!');
