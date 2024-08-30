@@ -1,7 +1,7 @@
 import "../components/RecentTripsStyles.css";
-import img1 from "../asserts/2.jpg";
-// import img2 from "../asserts/6.jpg";
-// import img3 from "../asserts/8.jpg";
+import img1 from "../assets/images//2.jpg";
+// import img2 from "../assets/images//6.jpg";
+// import img3 from "../assets/images//8.jpg";
 
 import React from "react";
 import RecentTripsData from "./RecentTripsData";

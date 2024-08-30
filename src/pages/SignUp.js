@@ -3,8 +3,8 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import SignUpForm from "../components/SignUpForm";
-import img1 from "../asserts/2.jpg";
-import img2 from "../asserts/2.jpg";
+import img1 from "../assets/images//2.jpg";
+import img2 from "../assets/images//2.jpg";
 
 const SignUp = () => {
   const slides = [

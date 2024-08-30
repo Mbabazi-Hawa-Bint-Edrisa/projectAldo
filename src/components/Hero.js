@@ -32,7 +32,7 @@ const Hero = (props) => {
             {props.btnText}
           </a>
         </div>
-      </div>
+    </div>
     </>
   );
 };

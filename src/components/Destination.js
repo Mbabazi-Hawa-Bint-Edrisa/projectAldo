@@ -1,8 +1,8 @@
 import "../components/DestinationStyles.css";
-import img1 from "../asserts/9.jpg";
-import img2 from "../asserts/6.jpg";
-import img3 from "../asserts/10.jpg";
-import img4 from "../asserts/4.jpg";
+import img1 from "../assets/images//9.jpg";
+import img2 from "../assets/images//6.jpg";
+import img3 from "../assets/images//10.jpg";
+import img4 from "../assets/images//4.jpg";
 
 import React from "react";
 import DestinationData from "./DestinationData";
