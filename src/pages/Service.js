@@ -2,11 +2,13 @@ import React from "react";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import BookingForm from "../components/bookingForm";
-import img1 from "../asserts/2.jpg";
-import img2 from "../asserts/2.jpg";
+import RecentTrips from "../components/RecentTrips";
+import PackageList from "../components/AvailableTrips";
+import img1 from "../assets/images//11.jpg";
+import img2 from "../assets/images//15.jpg";
 
-const Booking= () => {
+const Service = () => {
+
   const slides = [
     {
       image: img1,
@@ -24,18 +26,19 @@ const Booking= () => {
       <Hero
         cName="hero"
         slides={slides}
-        title="Booking"
-    
+        title="Trips"
+        text="Travel with us ."
         
         url="#"
        
       />
+  
+      <RecentTrips />
+      <PackageList/>
 
-
-      <BookingForm />
       <Footer />
     </>
   );
 };
 
-export default Booking;
+export default Service;

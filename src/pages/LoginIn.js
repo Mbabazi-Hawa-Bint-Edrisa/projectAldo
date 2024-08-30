@@ -1,14 +1,12 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import RecentTrips from "../components/RecentTrips";
-import PackageList from "../components/AvailableTrips";
-import img1 from "../asserts/11.jpg";
-import img2 from "../asserts/15.jpg";
+import LoginForm from "../components/Login";
+import img1 from "../assets/images//2.jpg";
+import img2 from "../assets/images//2.jpg";
 
-const Service = () => {
-
+const Login= () => {
   const slides = [
     {
       image: img1,
@@ -26,19 +24,16 @@ const Service = () => {
       <Hero
         cName="hero"
         slides={slides}
-        title="Trips"
-        text="Travel with us ."
+        title="Login"
+    
         
         url="#"
        
       />
-  
-      <RecentTrips />
-      <PackageList/>
-
+      <LoginForm/>
       <Footer />
     </>
   );
 };
 
-export default Service;
+export default Login;

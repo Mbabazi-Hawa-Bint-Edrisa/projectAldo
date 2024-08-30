@@ -68,7 +68,7 @@ const ContactForm = () => {
           onChange={handleChange}
           required
         />
-        <button type="submit">Send Message</button>
+        <button type="submit" className="px-16 py-8 bg-slate-800">Send Message</button>
       </form>
       {feedback && <p>{feedback}</p>}
     </div>
