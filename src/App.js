@@ -1,13 +1,13 @@
 import React from 'react';
 import { Route, Routes } from "react-router-dom";
-import "./App.css";
+import "./global.css";
 // import Navbar from "./components/Navbar";
-import Home from "./routes/Home";
-import About from "./routes/About";
-import Contact from "./routes/Contact";
-import Service from "./routes/Service";
-import SignUp from "./routes/SignUp";
-import LoginForm from "./routes/LoginIn";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Service from "./pages/Service";
+import SignUp from "./pages/SignUp";
+import LoginForm from "./pages/LoginIn";
 import BookingForm from "./components/bookingForm";
 
 function App() {

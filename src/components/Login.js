@@ -162,7 +162,7 @@ const Login = () => {
           onChange={handleChange} 
           required 
         />
-        <button type="submit">Login</button>
+        <button type="submit" className=''>Login</button>
       </form>
     </div>
   );

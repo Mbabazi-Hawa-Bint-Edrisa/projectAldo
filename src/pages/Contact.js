@@ -2,8 +2,8 @@ import React from "react";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import img1 from "../asserts/12.jpg";
-import img2 from "../asserts/2.jpg";
+import img1 from "../assets/images//12.jpg";
+import img2 from "../assets/images//2.jpg";
 import ContactForm from "../components/ContactForm";
 
 
