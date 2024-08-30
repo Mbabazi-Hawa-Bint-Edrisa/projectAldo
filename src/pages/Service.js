@@ -6,6 +6,7 @@ import RecentTrips from "../components/RecentTrips";
 import PackageList from "../components/AvailableTrips";
 import img1 from "../assets/images//11.jpg";
 import img2 from "../assets/images//15.jpg";
+import Card from "../components/card";
 
 const Service = () => {
 
@@ -32,7 +33,7 @@ const Service = () => {
         url="#"
        
       />
-  
+      <Card/>
       <RecentTrips />
       <PackageList/>
 

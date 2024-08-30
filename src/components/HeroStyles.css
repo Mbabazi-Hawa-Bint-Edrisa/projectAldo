@@ -38,10 +38,10 @@
 .hero-text h1 {
   font-size: 3rem;
   font-weight: 100000;
-  background: white;
-  -webkit-background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
+  background: rgba(255, 255, 255, 0.46);
+  --webkit-background-clip: text;
+  color:rgb(0, 208, 255);
+  --webkit-text-fill-color: transparent;
 }
 
 .hero-text p {
