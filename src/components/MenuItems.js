@@ -23,4 +23,10 @@ export const MenuItems = [
     cName: "nav-links",
     icon: "fa-solid fa-address-book",
   },
+  {
+    title: "Book now",
+    url: "/bookingForm",
+    cName: "nav-links",
+    icon: "fa-solid fa-address-book",
+  },
 ];
