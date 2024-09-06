@@ -21,32 +21,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bottom">
-        {/* <div>
-          <h4>Project</h4>
-          <a href="#">ChangeLog</a>
-          <a href="#">Status</a>
-          <a href="#">License</a>
-          <a href="#">All Versions</a>
-        </div> */}
-        {/* <div>
-          <h4>Community</h4>
-          <a href="#">GitHub</a>
-          <a href="#">Issues</a>
-          <a href="#">Projects</a>
-          <a href="#">Twitter</a>
-        </div> */}
-        {/* <div>
-        <h4>Help</h4>
-          <a href="javascript:void(0)" onClick={() => alert('Support Page Coming Soon!')}>
-            Support
-          </a>
-          <a href="javascript:void(0)" onClick={() => alert('Troubleshooting Page Coming Soon!')}>
-            Troubleshooting
-          </a>
-          <a href="javascript:void(0)" onClick={() => alert('Contact Us: Call Us at +256 705 425 626 or +256 779 299 426')}>
-            Contact Us @ Call Us: +256 705 425 626 or +256 779 299 426
-          </a>
-        </div> */}
+       
         <p>© 2024 Aldo Safaris Tour and Travel Company Limited. All rights reserved.</p>
       </div>
     </div>
