@@ -38,7 +38,7 @@
 .hero-text h1 {
   font-size: 3rem;
   font-weight: 100000;
-  background: rgba(255, 255, 255, 0.46);
+  /* background: rgba(255, 255, 255, 0.46); */
   --webkit-background-clip: text;
   color:rgb(0, 208, 255);
   --webkit-text-fill-color: transparent;
@@ -69,11 +69,11 @@
 }
 
 /* Keyframes for fade-in animation */
-@keyframes fadeIn {
+/* @keyframes fadeIn {
   to {
-    opacity: 1;
+    opacity: 0;
   }
-}
+} */
 
 /* Styles for react-slick carousel */
 .slick-slider {

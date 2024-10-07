@@ -33,8 +33,8 @@ import Destination from "../components/Destination";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import Card from "../components/card";
-// import RecentTrips from "../components/RecentTrips";
+// import Card from "../components/card";
+import RecentTrips from "../components/RecentTrips";
 
 const Home = () => {
   const slides = [
@@ -64,9 +64,10 @@ const Home = () => {
         url="#"
        
       />
-      <Card/>
+      {/* <Card/> */}
+      <RecentTrips />
       <Destination />
-      {/* <RecentTrips /> */}
+      
       <Footer />
     </>
   );

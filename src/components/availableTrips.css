@@ -1,4 +1,92 @@
-/* package.css */
+.package-list {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.package-list h2 {
+  text-align: center;
+  color: #4CAF50; /* Green */
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.package-list ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.package-list li {
+  background-color: #ffffff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.package-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.package-list h3 {
+  color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.package-list p {
+  color: #555;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.package-list p.price {
+  font-weight: bold;
+  color: #FFDD00; /* Yellow price text */
+}
+
+.package-list button {
+  background-color: #4CAF50; /* Green button */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.package-list button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.package-list a {
+  text-decoration: none;
+}
+
+.package-list a button {
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .package-list h2 {
+    font-size: 2rem;
+  }
+
+  .package-list li {
+    padding: 15px;
+  }
+
+  .package-list h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* package.css
 
 .package-list {
     width: 80%;
@@ -65,4 +153,4 @@
   }
   
   
-  
+   */

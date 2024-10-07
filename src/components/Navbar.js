@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
-import logo from './images/edited logo.png';
+import logo from './edited logo.png';
+
 
 const Navbar = () => {
   const [state, setState] = useState(false);

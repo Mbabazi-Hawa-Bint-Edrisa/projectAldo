@@ -1,0 +1,86 @@
+/* General Page Styling */
+.user-profile-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  /* User Profile Section */
+  .user-profile {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .user-profile h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .user-profile p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* Bookings Section */
+  .bookings {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .bookings h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .booking-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .booking-item:last-child {
+    border-bottom: none;
+  }
+  
+  .booking-item p {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .booking-item .booking-date {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .booking-item .status {
+    font-weight: bold;
+    color: #007bff; /* Bootstrap primary color */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .user-profile-page {
+      padding: 10px;
+    }
+  
+    .user-profile, .bookings {
+      padding: 15px;
+    }
+  
+    .user-profile h1, .bookings h2 {
+      font-size: 20px;
+    }
+  
+    .user-profile p, .booking-item p {
+      font-size: 14px;
+    }
+  }
+  
